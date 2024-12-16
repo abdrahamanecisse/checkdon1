@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Shopping</h1>
+    <div id="cart">
+      <div class="cart-item" data-price="200">
+        <div class="item-details">
+          <img src="images/chaussure.png" alt="chaussure" class="item-image" />
+          <span class="item-name">Chaussure Adidas </span>
+        </div>
+        <div class="quantity-controls">
+          <button class="minus">-</button>
+          <span class="quantity">1</span>
+          <button class="plus">+</button>
+        </div>
+        <span class="price">200 DT</span>
+        <span class="heart">&#9829;</span>
+        <span class="remove">Supprimer</span>
+      </div>
+      <div class="cart-item" data-price="65">
+        <div class="item-details">
+          <img src="images/casquette.png" alt="Casquette" class="item-image" />
+          <span class="item-name">Casquette Jordan</span>
+        </div>
+        <div class="quantity-controls">
+          <button class="minus">-</button>
+          <span class="quantity">1</span>
+          <button class="plus">+</button>
+        </div>
+        <span class="price">65 DT</span>
+        <span class="heart">&#9829;</span>
+        <span class="remove">Supprimer</span>
+      </div>
+    </div>
+    <div class="total">Total: 265 DT</div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
